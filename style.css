@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#clock {
+  font-size: 150px;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#time {
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Media Queries for Different Screen Sizes */
+/* For screens with width less than or equal to 768px */
+@media screen and (max-width: 768px) {
+  #clock {
+    font-size: 100px;
+  }
+
+  #am-pm {
+    font-size: 10px;
+  }
+}
+
+/* For screens with width less than or equal to 576px */
+@media screen and (max-width: 576px) {
+  #clock {
+    font-size: 80px;
+  }
+  #am-pm {
+    font-size: 10px;
+  }
+}
