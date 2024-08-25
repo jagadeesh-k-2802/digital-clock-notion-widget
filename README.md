@@ -8,7 +8,7 @@
 - Supports both 12 and 24 hour format
 - Time gets updated every minute
 
-## Usage 🛠💻
+## Usage 🛠
 
 - `theme` URL Parameter
   - light: Sets the interface to a light theme, typically with a notion light-colored background.
@@ -19,4 +19,4 @@
 
 ## Example 💡
 
-`https://jagadeesh-k-2802.github.io/digital-clock-notion-widget/?theme=dark&time=24`
+https://jagadeesh-k-2802.github.io/digital-clock-notion-widget/?theme=dark&time=24
